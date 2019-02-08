@@ -34,7 +34,7 @@ function writeConfigOptions(){
     export CONTAINER_VAR1=$CONTAINER_VAR1
     export CONTAINER_VAR2=$CONTAINER_VAR2
     cat /etc/docker-conf/configfile.conf.tmpl \
-        | envsubst > /etc/docker-conf/configfile.conf
+        | envsubst "$(env | sed -e 's/=.*//' -e 's/^/\$/g')" > /etc/docker-conf/configfile.conf
 }
 function init(){
 
