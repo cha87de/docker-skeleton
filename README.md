@@ -17,7 +17,7 @@ The entrypoint as a flow chart diagram:
 
 ## Experiences
 
-With the presented approach, we managed to build a real OpenStack test setup - with approx. 30 physical nodes and hence approx. 300 containers in total. 
+With the presented approach, we managed to build a real OpenStack test setup - with approx. 30 physical nodes and hence approx. 300 containers in total: [Omistack](https://omistack.anyops.org).
 
 # TODOs and Extensions
  - [ ] add side kick container skeleton to host (configuration) data
