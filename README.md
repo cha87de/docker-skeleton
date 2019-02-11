@@ -11,6 +11,9 @@ Assumptions:
 
 Keep it simple. Bash solves all your needs. No complex service or daemon for bootstrapping needed.
 
+The entrypoint as a flow chart diagram:
+
+![](flowchart.png)
 
 ## Experiences
 
